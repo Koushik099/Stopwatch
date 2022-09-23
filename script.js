@@ -35,9 +35,6 @@ let runTimer = () => {
     sec = 0;
     getsec.textContent = "0" + sec;
   }
-  if (min > 9) {
-    getmin.textContent = min;
-  }
 };
 
 let runMethod = () => {
